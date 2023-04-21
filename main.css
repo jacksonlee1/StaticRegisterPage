@@ -1,5 +1,5 @@
 body{
-    background-color: #76c8ff;
+    background-color: olivedrab;
     margin:0;
     display:flex;
     height: 100vh;
@@ -22,22 +22,23 @@ body > header{
 }
 
 header > a{
-    background-color: #76c8ff;
+    background-color: olivedrab;
     color: white;
    
     padding:.25rem .5rem;
 
-    border-radius: 7px;
+    border-radius: 5px;
     text-decoration: none;
     margin-right: .5rem;
 }
 /* :hover is a sudo class */
 header > a:hover, form button:hover{
-    background-color: navy;
-    border-color: fuchsia;
-    color: fuchsia;
+    background-color: orangered;
+    border-color: greenyellow;
+    border-radius: 50px;
+    color: greenyellow;
     opacity: .75;
-    transition:.3s;
+    transition:1s;
 }
 
 .container{
@@ -70,7 +71,7 @@ form input, form button{
 
 form button{
     color: white;
-    background-color: #13a0ff;
+    background-color: olivedrab;
 }
 
 footer{
